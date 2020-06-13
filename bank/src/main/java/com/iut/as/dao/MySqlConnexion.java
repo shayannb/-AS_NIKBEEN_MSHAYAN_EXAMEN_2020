@@ -25,8 +25,8 @@ public class MySqlConnexion {
 	// jdbc:mysql://devbdd.iutmetz.univ-lorraine.fr:3306/(user)_(nomBase) --> Via Connection Cisco.
 	private static final String URL_MYSQL = "jdbc:mysql://localhost:3306/bankiut";
 	// C'est mal -> Les données sont lisibles ... !! (fichier properties ...)
-	private static final String USER = "root";
-	private static final String PASSWORD = "root";
+	private static final String USER = "";
+	private static final String PASSWORD = "";
 
 	private static final Logger logger = getLogger(MySqlConnexion.class);
 
