@@ -130,4 +130,9 @@ public class LoginController extends ActionSupport {
 		listeComptesOk = true;
 		return ActionSupport.SUCCESS;
 	}
+
+	public String debitCredit() {
+
+		return ActionSupport.SUCCESS;
+	}
 }
